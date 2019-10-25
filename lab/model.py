@@ -1,3 +1,14 @@
+"""The model class"""
+
+__author__ = "Ruben R. Kazumov"
+__copyright__ = "Copyright 2019, Ruben R. Kazumov"
+__credits__ = ["Ruben R. Kazumov"]
+__license__ = "MIT"
+__version__ = [3, 0, 0]
+__maintainer__ = "Ruben R. Kazumov"
+__email__ = "kazumov@gmail.com"
+__status__ = "Production"
+
 from typing import Union
 
 import keras

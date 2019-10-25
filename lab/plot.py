@@ -1,9 +1,24 @@
+"""The plot class"""
+
+__author__ = "Ruben R. Kazumov"
+__copyright__ = "Copyright 2019, Ruben R. Kazumov"
+__credits__ = ["Ruben R. Kazumov"]
+__license__ = "MIT"
+__version__ = [3, 0, 0]
+__maintainer__ = "Ruben R. Kazumov"
+__email__ = "kazumov@gmail.com"
+__status__ = "Production"
+
 import os, sys
+
 from uuid import uuid4
+
 from abc import ABC
 
 from keras.callbacks.callbacks import History
+
 import matplotlib.pyplot as plt
+
 import seaborn
 
 
@@ -30,6 +45,8 @@ class Plot(ABC):
 
 
 class FittingAccuracy(Plot):
+    """The fitting accuracy plot"""
+
     def __init__(self, dataSignature: str = "", path: str = "plots"):
         self.title = dataSignature
         # file name is alwais random
@@ -78,6 +95,8 @@ class FittingAccuracy(Plot):
 
 
 class FittingLossFunction(Plot):
+    """The loss function plot"""
+
     def __init__(self, dataSignature: str = "", path: str = "plots"):
         self.title = dataSignature
         # file name is alwais random

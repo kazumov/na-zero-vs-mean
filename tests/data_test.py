@@ -1,8 +1,12 @@
 import unittest
+
 import os, sys
-from data import Data, DataRandom
-from target_generator import TGAlpha
+
 from numpy import ndarray
+
+from lab.data import Data, DataRandom
+
+from lab.target import TGAlpha
 
 
 class DataClassTests(unittest.TestCase):

@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 from __future__ import annotations
 
 """The data set class"""
@@ -26,9 +25,9 @@ from keras import Sequential
 
 from keras.callbacks.callbacks import History
 
-from data import DataRandom
+from lab.data import DataRandom
 
-from model import ModelDDDD
+from lab.model import ModelDDDD
 
 
 class Fitter:

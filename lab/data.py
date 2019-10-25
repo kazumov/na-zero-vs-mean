@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 from __future__ import annotations
 
 """The data set class"""
@@ -26,9 +25,9 @@ from pandas import DataFrame
 
 from sklearn.model_selection import train_test_split as trainTestSplit
 
-from target_generator import TargetGenerator, TGAlpha
+from lab.target import TargetGenerator, TGAlpha
 
-from damager import Damager
+from lab.damager import Damager
 
 
 class Data:

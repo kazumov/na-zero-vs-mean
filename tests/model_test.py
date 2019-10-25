@@ -4,7 +4,7 @@ import keras
 
 from keras import Sequential
 
-from model import ModelDDDD
+from lab.model import ModelDDDD
 
 
 class ModelDDDDClassTests(unittest.TestCase):

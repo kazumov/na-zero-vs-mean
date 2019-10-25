@@ -1,12 +1,16 @@
 import unittest
+
 import os, sys
+
 from copy import deepcopy
 
 import numpy as np
 
-from data import Data, DataRandom
-from target_generator import TGAlpha
-from damager import Damager, DMGNA, DMGNoiseFeatures, DMGNoiseValues
+from lab.data import Data, DataRandom
+
+from lab.target import TGAlpha
+
+from lab.damager import Damager, DMGNA, DMGNoiseFeatures, DMGNoiseValues
 
 
 class DamagersClassTests(unittest.TestCase):

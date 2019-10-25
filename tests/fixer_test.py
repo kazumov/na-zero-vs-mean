@@ -1,12 +1,16 @@
 import unittest
+
 import os, sys, copy
 
 import numpy as np
 
-from data import Data, DataRandom
-from target_generator import TGAlpha
-from damager import DMGNA, DMGNoiseFeatures, DMGNoiseValues
-from fixer import Fixer, FXZero, FXMean
+from lab.data import Data, DataRandom
+
+from lab.target import TGAlpha
+
+from lab.damager import DMGNA, DMGNoiseFeatures, DMGNoiseValues
+
+from lab.fixer import Fixer, FXZero, FXMean
 
 
 class FixersClassTests(unittest.TestCase):
