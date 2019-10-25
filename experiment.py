@@ -2,11 +2,10 @@
 
 import os
 
-from data import Data, DataRandom
-from target_generator import TGAlpha
-from damager import DMGNA, DMGNoiseFeatures
-from fixer import FXZero, FXMean
-import base64
+from lab.data import Data, DataRandom
+from lab.target import TGAlpha
+from lab.damager import DMGNA, DMGNoiseFeatures
+from lab.fixer import FXZero, FXMean
 
 cwd = os.getcwd()
 

@@ -4,11 +4,10 @@ import os, sys
 from typing import Dict
 import argparse
 
-from model import ModelDDDD
-from data import Data
-from fitter import Fitter
-from plot import FittingAccuracy, FittingLossFunction
-import base64
+from lab.model import ModelDDDD
+from lab.data import Data
+from lab.fitter import Fitter
+from lab.plot import FittingAccuracy, FittingLossFunction
 
 
 def parameters() -> Dict:
