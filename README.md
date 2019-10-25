@@ -1,3 +1,5 @@
+![](https://img.shields.io/github/issues/detail/u/commonality/readme-inspector/1.svg?style=flat-square)
+
 # Zero values or feature means?
 
 Comparison of the NA replacement methods
